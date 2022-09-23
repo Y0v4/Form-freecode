@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-white: white;
+    --color-green:  ;
+}
+
+body{
+    width: 100%;
+    min-width: 800px;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-white);
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+}
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+#survey-form{
+    padding: 40px;
+    background-color: rgba(27, 27, 50, 0.8);  
+} 
+
+header{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+} 
+h1{
+    padding-bottom: 10px;
+}
+
+.form-group{
+    margin: 0 auto 1rem auto;
+}
+label, input {
+    display: flex;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+    display: inline;    
+}
+label, p {
+    font-size: 1.125em;
+    margin-bottom: 8px;
+}
+.form-control{
+    width: 100%;
+    height: 2.5rem;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
+.input-control {
+    width: 100%;
+    height: 7rem;
+    padding: 10px;
+}
+
+#submit {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    margin-top: 20px;   
+    background:  var(--color-green);
+    color: inherit;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(200, green, 200);
+}
